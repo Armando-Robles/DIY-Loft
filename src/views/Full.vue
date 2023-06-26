@@ -3,6 +3,9 @@ import Steps from '../components/Steps.vue'
 </script>
 
 <template>
+  
+
+
   <Steps>
     <template #icon>
       1
@@ -52,7 +55,7 @@ import Steps from '../components/Steps.vue'
 
   <Steps>
     <template #icon>
-      <CommunityIcon />
+      4
     </template>
     <template #heading>Step 4</template>
 
@@ -70,7 +73,7 @@ import Steps from '../components/Steps.vue'
 
   <Steps>
     <template #icon>
-      <SupportIcon />
+      5
     </template>
     <template #heading>Step 5</template>
 
