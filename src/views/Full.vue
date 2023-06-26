@@ -1,5 +1,5 @@
 <script setup>
-import Steps from './Steps.vue'
+import Steps from '../components/Steps.vue'
 </script>
 
 <template>
