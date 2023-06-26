@@ -5,9 +5,9 @@ import Steps from '../components/Steps.vue'
 <template>
   <Steps>
     <template #icon>
-      <font-awesome-icon icon="fa-solid fa-user-secret" />
+      1
     </template>
-    <template #heading>Documentation</template>
+    <template #heading>Step 1</template>
 
     Vue’s
     <a href="https://vuejs.org/" target="_blank" rel="noopener">official documentation</a>
@@ -16,9 +16,9 @@ import Steps from '../components/Steps.vue'
 
   <Steps>
     <template #icon>
-      <ToolingIcon />
+      2
     </template>
-    <template #heading>Tooling</template>
+    <template #heading>Step 2</template>
 
     This project is served and bundled with
     <a href="https://vitejs.dev/guide/features.html" target="_blank" rel="noopener">Vite</a>. The
@@ -36,9 +36,9 @@ import Steps from '../components/Steps.vue'
 
   <Steps>
     <template #icon>
-      <EcosystemIcon />
+      3
     </template>
-    <template #heading>Ecosystem</template>
+    <template #heading>Step 3</template>
 
     Get official tools and libraries for your project:
     <a href="https://pinia.vuejs.org/" target="_blank" rel="noopener">Pinia</a>,
@@ -54,7 +54,7 @@ import Steps from '../components/Steps.vue'
     <template #icon>
       <CommunityIcon />
     </template>
-    <template #heading>Community</template>
+    <template #heading>Step 4</template>
 
     Got stuck? Ask your question on
     <a href="https://chat.vuejs.org" target="_blank" rel="noopener">Vue Land</a>, our official
@@ -72,7 +72,7 @@ import Steps from '../components/Steps.vue'
     <template #icon>
       <SupportIcon />
     </template>
-    <template #heading>Support Vue</template>
+    <template #heading>Step 5</template>
 
     As an independent project, Vue relies on community backing for its sustainability. You can help
     us by
