@@ -10,7 +10,7 @@ import Steps from '../components/Steps.vue'
     <template #icon>
       1
     </template>
-    <template #heading>Step 1</template>
+    <template #heading>This is an intro into what this website is about</template>
 
     Vue’s
     <a href="https://vuejs.org/" target="_blank" rel="noopener">official documentation</a>
