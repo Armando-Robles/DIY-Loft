@@ -1,15 +1,14 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
-import Home from './components/Home.vue'
+// import Home from './components/Home.vue'
 </script>
 
 <template>
   <header>
-    <!-- <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" /> -->
-
-    <div class="wrapper">
-      <Home msg="Welcome to DIY-Lofts!!" />
-
+    <div class="greetings">
+      <h1>Welcome to DIY-Lofts!</h1>
+      </div>
+      <div>
       <nav>
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/twin">Twin</RouterLink>
@@ -19,8 +18,10 @@ import Home from './components/Home.vue'
       </nav>
     </div>
   </header>
-
-  <RouterView />
+  <div>
+    <RouterView />
+  </div>
+  
 </template>
 
 <style scoped>
@@ -30,6 +31,16 @@ header {
   /* justify-content: center; */
   padding: 25px;
 }
+
+h1 {
+  font-weight: 500;
+  font-size: 2.6rem;
+  /* position: fixed; */
+}
+.greetings h1 {
+  text-align: center;
+}
+
 
 .logo {
   display: block;
@@ -72,7 +83,7 @@ nav a:first-of-type {
     margin: 0 2rem 0 0;
   }
 
-  header .wrapper {
+  header .greetings {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
@@ -86,5 +97,8 @@ nav a:first-of-type {
     padding: 1rem 0;
     margin-top: 1rem;
   }
+  /* .greetings h1 {
+    text-align: left;
+  } */
 }
 </style>
