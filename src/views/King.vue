@@ -4,6 +4,7 @@ import Lsh from "../components/Pageheader.vue";
 import Otp from "../components/Onthispage.vue";
 import Mn from "../components/Materials.vue";
 import Pricing from '../components/Pricing.vue';
+// import Footing from '../components/Footing.vue';
 </script>
 
 <template>
@@ -95,6 +96,9 @@ import Pricing from '../components/Pricing.vue';
       <template #heading>Step 5</template>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, ex.
     </Steps>
+  </div>
+  <div>
+    <!-- <Footing /> -->
   </div>
 </template>
 

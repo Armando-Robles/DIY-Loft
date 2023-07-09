@@ -1,6 +1,5 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
-import { Foot } from '../src/components/Footer.vue'
 // import Home from './components/Home.vue'
 </script>
 
@@ -21,10 +20,8 @@ import { Foot } from '../src/components/Footer.vue'
   </header>
   <div>
     <RouterView />
+    <Footing />
   </div>
-    <div>
-      <Foot></Foot>
-    </div>
 </template>
 
 <style scoped>
