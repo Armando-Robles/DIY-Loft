@@ -9,6 +9,9 @@ import Steps from '../components/Steps.vue'
     websites that are similar to this one, but there's one big difference. We won't make you pay us for the plans! Now if you'd like to leave a tip we
   would very much appreciate it, but its not required! </p>
 </div>
+<div> 
+  <iframe width="1691" height="779" src="https://www.youtube.com/embed/5eyxo8kiPiU" title="DIY Kids Floating Loft Bed  | TimberLOK Lag Screws" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 </template>
 
 <style>
