@@ -14,31 +14,31 @@ const router = createRouter({
       name: 'twin',
       component: () => import('../views/Twin.vue')
     },
-    {
-      path: '/twinm',
-      name: 'twinm',
-      component: () => import('../views/TwinM.vue')
-    },
+    // {
+    //   path: '/twinm',
+    //   name: 'twinm',
+    //   component: () => import('../views/TwinM.vue')
+    // },
     {
       path: '/full',
       name: 'full',
       component: () => import('../views/Full.vue')
     },
-    {
-      path: '/fullm',
-      name: 'fullm',
-      component: () => import('../views/FullM.vue')
-    },
+    // {
+    //   path: '/fullm',
+    //   name: 'fullm',
+    //   component: () => import('../views/FullM.vue')
+    // },
     {
       path: '/queen',
       name: 'queen',
       component: () => import('../views/Queen.vue')
     },
-    {
-      path: '/queenm',
-      name: 'queenm',
-      component: () => import('../views/QueenM.vue')
-    },
+    // {
+    //   path: '/queenm',
+    //   name: 'queenm',
+    //   component: () => import('../views/QueenM.vue')
+    // },
     {
       path: '/king',
       name: 'king',
