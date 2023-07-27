@@ -15,9 +15,19 @@ const router = createRouter({
       component: () => import('../views/Twin.vue')
     },
     {
+      path: '/twinm',
+      name: 'twinm',
+      component: () => import('../views/TwinM.vue')
+    },
+    {
       path: '/full',
       name: 'full',
       component: () => import('../views/Full.vue')
+    },
+    {
+      path: '/fullm',
+      name: 'fullm',
+      component: () => import('../views/FullM.vue')
     },
     {
       path: '/queen',
@@ -25,9 +35,19 @@ const router = createRouter({
       component: () => import('../views/Queen.vue')
     },
     {
+      path: '/queenm',
+      name: 'queenm',
+      component: () => import('../views/QueenM.vue')
+    },
+    {
       path: '/king',
       name: 'king',
       component: () => import('../views/King.vue')
+    },
+    {
+      path: '/kingm',
+      name: 'kingm',
+      component: () => import('../views/KingM.vue')
     }
   ]
 })

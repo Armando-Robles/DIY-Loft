@@ -105,13 +105,13 @@ import { RouterLink} from 'vue-router'
     <Msmt>
       <template #msmth>
         Here are the board measurements we will need to complete this build. Click 
-        <RouterLink to="/kingm">here</RouterLink> if you prefer the Metric system.
+        <RouterLink to="/king">here</RouterLink> if you prefer the Standard Amercian English system.
       </template>
       <template #msmtp>
         <ul>
-          <li>2 -2"x6"x76"</li>
-          <li>2 -2"x6"x84"</li>
-          <li>8 -2"x4"x76"</li>
+          <li>2 -5.08cm x 15.24cm x 193.04cm</li>
+          <li>2 -5.08cm x 15.24cm x 213.36cm</li>
+          <li>8 -5.08cm x 10.16cm x 193.04cm</li>
         </ul>
       </template>
     </Msmt>
