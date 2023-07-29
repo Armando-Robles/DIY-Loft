@@ -12,6 +12,9 @@ import Pricing from '../components/Pricing.vue';
       <template #lsh> Ah the classic Full bed </template>
       <template #lshp>
         There's nothing classic, just wanted to say that.
+        <div>
+          <img class="example" src="../assets/Full_Sized_Bed.jpg" alt="Full Sized Bed"/>
+        </div>
       </template>
     </Lsh>
   </div>
@@ -96,6 +99,11 @@ import Pricing from '../components/Pricing.vue';
 
 
 <style>
+.example {
+  width: 800px;
+  height: 400px;
+}
+
 @media (min-width: 1024px) {
   .about {
     min-height: 100vh;

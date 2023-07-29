@@ -12,6 +12,9 @@ import Pricing from '../components/Pricing.vue';
       <template #lsh> The Queen! </template>
       <template #lshp>
         This size is perfect if you don't mind snuggling every night!
+        <div>
+          <img class="example" src="../assets/Queen_Sized_Bed.jpg" alt="Queen Sized Bed"/>
+        </div>
       </template>
     </Lsh>
   </div>
@@ -96,6 +99,11 @@ import Pricing from '../components/Pricing.vue';
 
 
 <style>
+.example {
+  width: 800px;
+  height: 400px;
+}
+
 @media (min-width: 1024px) {
   .about {
     min-height: 100vh;

@@ -6,6 +6,10 @@
   </template>
   
   <style scoped>
+  p {
+    padding: 1rem;
+  }
+
   .infobox{
     padding: 2rem;
   }

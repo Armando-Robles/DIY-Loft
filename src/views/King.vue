@@ -18,6 +18,9 @@ import { RouterLink} from 'vue-router'
         <div>
           <img src="../assets/lltk.png" alt="Long live the King"/>
         </div>
+        <div>
+          <img class="example" src="../assets/King_Sized_Bed.jpg" alt="King Sized Bed"/>
+        </div>
       
       </template>
     </Lsh>
@@ -124,6 +127,11 @@ import { RouterLink} from 'vue-router'
 
 
 <style>
+.example {
+  width: 800px;
+  height: 400px;
+}
+
 @media (min-width: 1024px) {
   .about {
     min-height: 100vh;

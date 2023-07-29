@@ -13,6 +13,9 @@ import Pricing from '../components/Pricing.vue';
       <template #lshp>
         The SMALLEST matress size there is. 
         Perfect for 1 if you don't toss and turn.
+        <div>
+          <img class="example" src="../assets/Twin_Sized_Beds.jpg" alt="Two Twin Sized Beds"/>
+        </div>
       </template>
     </Lsh>
   </div>
@@ -97,6 +100,11 @@ import Pricing from '../components/Pricing.vue';
 
 
 <style>
+.example {
+  width: 800px;
+  height: 400px;
+}
+
 @media (min-width: 1024px) {
   .about {
     min-height: 100vh;
